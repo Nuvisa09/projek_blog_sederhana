@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <title>Tutorial</title>
+        <meta charset="utf.8">
+        <meta name="viewpoint" content="width=device-width",initial-scale=1>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <!-- untuk menyesuaikan tampilan terhadap layar pengguna-->
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                background : #13616e;
+                font-family: sans-serif;
+            } 
+            .header{
+                font-family: "Sofia", sans-serif;
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+                text-shadow: 6px 6px 6px #ababab;
+                font-size : 48px; 
+                line-height:35px
+            }
+            .menu{
+                overflow: hidden;
+                background-color:SaddleBrown;
+                
+            }
+            .menu a{
+                display: -webkit-inline-box;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .menu a:hover{
+                background-color: #ddd;
+                color: rgb(15, 15, 15);
+            }
+            article{
+                margin-right:200px;
+                margin-left: 60px;
+                border-right:1px ;
+                padding: 1em;
+                background-color: #f1f1f1;
+                color: black;
+            }
+            .kotak{
+                margin:200px;
+                margin-top: 5px;
+                border-right:1px ;
+                padding: 1em;
+                background-color: rgba(122, 88, 88, 0.205);
+                color: black;
+            }
+            .persegi{
+                margin :200PX;
+                border-right:1px ;
+                margin-top:5px;
+                padding: 1em;
+                background-color: rgba(122, 88, 88, 0.205);
+                color: black;
+                display:block;
+                
+            }
+            .segitiga{
+                margin :200PX;
+                border-right:1px ;
+                margin-top:5px;
+                padding: 1em;
+                background-color: rgba(122, 88, 88, 0.205);
+                color: black;
+                display:block;
+            }
+            footer{
+                padding: 1em;
+                color:black;
+                text-align: center;
+                background-color: saddlebrown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header" >
+            <h1>Vita Blog</h1>
+        </div>
+        <div  align="center" class="menu">
+                <a href="website.html">Home</a>
+                <a href="#">Blog</a>
+                <a href="about.html">About</a>
+                <a href="#">Buku Tamu</a>
+        </div>
+        <div class="row">
+            <article>
+                <div  class="column">
+                    <h2 style="font-size : 48px;">Artikel</h2>      
+                    <article align="left" class="kotak">
+                        <center>
+                            <h2>Berbagi Kisah Belajar di Saat Pandemi</h2>
+                            <img src="gunplash.jpg" alt="Gambar PPT" width=400 height="400"/>
+                        </center>
+                        <h5>11 jan 2021</h5>
+                        <P align="justify" >Situasi di kala pandemi tentu bukan sesuatu yang begitu menyenangkan 
+                            karena kita dituntut untuk melakukan semua kegiatan di dalam rumah, salah satunya belajar
+                            belajar di kala pandemi <a href="artikel.html">Read More</a>
+                        </P>
+                        
+                    </article> 
+                </div> 
+                <div>
+                    <article  class="persegi">
+                        <center>
+                            <h2 >Tutorial Membuat Daftar Pustaka</h2>
+                            <img src="munsplash.jpg" alt="Gambar PPT" width=400 height="400"/> 
+                        </center>
+                        <P align="justify" >
+                            <h5>11 jan 2021</h5>
+                            Menjadi seorang pelajar apalagi mahasiswa tentu tidak lepas dengan yang namanya membuat makalah dan 
+                            ditambah lagi dengan dengan tugas yang menumpuk karena itu tentu dibutuhkan cara yang praktis untuk mengerjakannya.
+                            Oleh karena itu saya akan membagikan tutorial membuat Daftar Pustaka <a href="artikel2.html">Read More</a>
+                        </P>
+                    </article>     
+                </div>
+                <div>
+                    <article  class="segitiga">
+                        <center>
+                            <h2 >Riview Buku : 70 Kekeliruan Wanita</h2>
+                            <img src="wanita.jpg" alt="Gambar PPT" width=400 height="500"/> 
+                        </center>
+                        <P align="justify" >
+                            <h5>11 jan 2021</h5>
+                            Kalian mungkin pernah dengar atau lihat meme " Wanita Selalu Benar ", bukan ? , Namun tentu saja itu tidak benar
+                            semua manusia pernah melakukan kekeliruan termasuk wanita. Nah kali ini aku bakal rekomendasikan Kalian
+                            sebuah buku yang berjudul "70 Kekeliruan Wanita... <a href="artikel3.html">Read More</a>
+                        </P>
+                    </article>     
+                </div>
+            </article>
+        </div>
+        <br><br>
+        <footer style="color: black;">
+           <b> Copyright &copy;2021 Nor Vita Sari </b>
+        </footer>
+    </body>
+</html>
