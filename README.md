@@ -1,6 +1,6 @@
 # Vita Blog
 
-Welcome to the Vita Blog project repository! This project features a simple blogging platform. The website is built using HTML and CSS.
+Welcome to the Vita Blog project ! This project features a simple blogging platform. The website is built using HTML and CSS.It was created as a university assignment.
 
 ## Live Demo
 
